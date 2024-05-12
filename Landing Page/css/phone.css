@@ -1,0 +1,218 @@
+@media only screen and (min-width: 280px) and (max-width: 420px) {
+
+   /* Navigation Bar */
+   #navbar {
+      flex-direction: column;
+      align-items: start;
+      position: fixed;
+      width: 100%;
+
+   }
+
+   #logo img {
+      height: 30px;
+      margin: 2px 6px;
+   }
+
+   #search_bar input {
+      display: flex;
+      padding: 0px 0px;
+      font-size: 10px;
+      margin: 15px 30px;
+   }
+
+   #loginbutton {
+   
+      padding: 0px 0px;
+      font-size: 10px;
+      margin:  -66px 248px;
+   }
+   .loginBtn {
+      padding: 5px 10px;
+      font-size: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+
+   #navbar ul li {
+      font-size: 7px;
+      margin: 3px 1px;
+      padding: 2px;
+
+
+   }
+
+   #navbar ul li a {
+
+      padding: 8px 13px;
+   }
+
+   #navbar ul li a:hover {
+      color: black;
+      background-color: aliceblue;
+   }
+
+   /* Home Section */
+   #home {
+
+      padding: 2px 3px;
+      height: 570px;
+
+
+
+   }
+
+
+   .btn {
+      padding: 5px 20px;
+      margin: 35px;
+   }
+
+
+   /* services section */
+   #services_container {
+      margin-top: -117px;
+
+   }
+
+   #service {
+      margin: 0px 20px;
+      flex-direction: column;
+   }
+
+   #service::before {
+      height: 1132px;
+      opacity: 0.4;
+   }
+
+   #service .box {
+      /* border: 2px solid red;  */
+      padding: 2px;
+      margin: 15px 35px;
+      height: 306px;
+      width: 245px;
+
+      justify-content: center;
+      align-items: center;
+
+   }
+
+   #service .box img {
+      height: 125px;
+      width: 220px;
+      display: block;
+      margin: auto;
+      text-align: center;
+
+   }
+
+   /* categories section */
+   #categories_1 {
+      flex-direction: column;
+      margin: 30px;
+   }
+
+   #categories_2 {
+      flex-direction: column;
+      margin: 30px;
+   }
+
+   /* about Section */
+   #about::before {
+      margin-top: 2220px;
+      height: 1155px;
+   }
+
+   #about {
+      /* border: 2px solid red; */
+      flex-direction: column;
+   }
+
+   #about .box {
+
+      margin: 2px 3px;
+
+   }
+
+   #about .box img {
+      height: 300px;
+      width: 300px;
+
+   }
+
+   #about .box p {
+      height: 735px;
+      width: 330px;
+   }
+
+   /* contact section */
+   .box_timing {
+      margin: 2px 2px;
+      padding: 1px;
+   }
+
+   .box_addres {
+      margin: 2px 2px;
+      padding: 1px;
+   }
+
+   .box_form {
+      margin: 2px 50px;
+   }
+
+   .box_form input {
+      margin-top: 2px;
+      padding: 2px;
+   }
+
+   .join_btn {
+      margin-top: 12px;
+      padding: 5px 40px;
+   }
+
+   .social_media {
+      margin: 6px 79px;
+      padding: 4px;
+   }
+
+   .social_media .insta-logo {
+      height: 15px;
+      width: 15px;
+      margin: 5px;
+   }
+
+   .social_media .facebook-logo {
+      height: 15px;
+      width: 15px;
+      margin: 5px;
+   }
+
+   .social_media .twitter-logo {
+      height: 15px;
+      width: 15px;
+      margin: 5px;
+   }
+
+   /* Footer */
+   footer {
+      background: black;
+      color: white;
+      padding: 2px 4px;
+      font-size: 7px;
+   }
+
+   /* utility classes */
+   .h-primary {
+      font-size: 2.2rem;
+      padding: 10px;
+      margin-top: 30px;
+   }
+
+   .h-secondary {
+      font-size: 1.8rem;
+   }
+}
